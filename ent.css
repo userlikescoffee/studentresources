@@ -1,0 +1,147 @@
+
+*{
+    font-family:'Rajdhani',Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.menu-bar
+    {
+        text-align: center;
+        background-color: rgb(0,100,0);
+        position:fixed ;
+        width: 100%;
+        min-height: min-content;
+    }
+    .menu-bar ul
+    {
+             display: inline-flex;
+             list-style: none;
+             color: #fff;
+    }
+    .menu-bar ul li
+    {
+        width: 120px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .menu-bar li a
+    {
+    text-decoration: none;
+    color:#fff
+    }
+    .menu-bar li a:hover
+    {
+    text-decoration: none;
+    color:tomato;
+    }
+    
+
+.content{
+   padding:15px;
+   background-color: rgb(67, 204, 13);
+
+}
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5   
+    {
+        padding: 20px;
+        border: 2px solid black;  
+        width: 75%;  
+        background-color: skyblue;
+    }
+
+        .feature{
+            font-size: 150%;
+        }
+            .feature + br + p{
+                font-size: 110%;
+            }
+
+        .arts_link a{
+            text-decoration: none;
+        }
+        .arts_link a:hover{
+            color: tomato;
+        }
+
+
+.below{
+    background-color: rgb(130, 216, 81);
+}
+
+    .text{
+        padding: 7px;
+    }
+    .text p{
+            text-align: center;
+            font-size: 150%;
+        }
+
+    .resources p
+    {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .resources table{
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid black;
+        border-radius: 3px;
+        padding: 3px;
+        background-color: #ccc;
+    }
+
+    .resources th{
+        padding:7px;
+    }
+
+    .resources td{
+        padding:7px;
+    }
+
+.back
+    {   
+        padding:7px;
+        display: flex;
+    }
+   
+
+    .search 
+        {   
+            position:absolute;
+            left: 40%;
+        }
+    input
+        {
+            border: 3px solid rgb(19, 219, 209);
+            height: 25px;
+            width: 200px;
+        }
+
+
+.bar{
+        background-color:rgb(0,100,0) ;
+        text-align: center;
+        padding:5px;
+     }
+
+    button{
+        cursor: pointer;
+        padding:7px;
+        color:#fff; 
+        background-color:rgb(0,100,0); 
+    }
+
+    
+.DESIGN{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

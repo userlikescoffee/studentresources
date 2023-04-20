@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+#note{
+    color:red;
+    font-size: 13px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.main_heading{
+    text-align: center;
+}
+
+input[type="submit"]{
+    padding: 12px 20px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(7, 160, 15);
+}
+
+.fb_1, 
+.fb_2,
+.fb_3,
+.fb_4,
+.fb_5
+{
+    background-color: #fff;
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+#fb_3{
+    width:75%;
+}
+
+option1, option2, option3, option4{
+   margin: 20px;
+}

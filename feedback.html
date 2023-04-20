@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="Feedbackstyle.css">
+</head>
+<body>
+   <div class="container">
+    <form method="POST" action="thanks.html">
+           <h1 class="main_heading">Feedback</h1>
+            <hr>
+
+        <h3>Personal Information </h3>
+            <p>Name:* <input type="text" name="name" id="name" placeholder="John Appleseed" required></p> 
+            
+            <p>
+                <fieldset>
+                    <legend>Gender:*</legend>
+                Male <input type="radio" name="gender" id="male" value="Male" required>
+                Female<input type="radio" name="gender" id="female" value="female"required>
+                Other<input type="radio" name="gender" id="other" value="Other"required>
+                </fieldset>
+            
+            <p>
+                Phone:* <input type="tel" name="phone" id="phone" placeholder="+91 XXXXX XXXXX" required> 
+            </p>
+             
+            <p>
+                Email:* <input type="email" name="email" id="email" placeholder="johnappleseed123@gmail.com" required> 
+            </p>
+            <hr>
+             
+            
+        <h3>Feedback</h3>
+            <fieldset class = "fb_1">
+                <p>
+                    1. Is this the first time that you are visiting our website?*<br><br>
+                    <option1>Yes<input type="radio" margin = 10px name="fb_1" id="yes" value="Yes" required></option1><br><br>
+                    <option2>No<input type="radio" margin = 10px name="fb_1" id="no" value="No"required></option2>
+                </p>
+            </fieldset>
+
+            <fieldset class = "fb_2">
+                <p>
+                    2. How satisfied are you with our website?*<br><br>
+                    <option1>Very Satisfied<input type="radio" name="fb_2" id="vs" value="Very Satisfied" required></option1><br><br>
+                    <option2>Satisfied<input type="radio" name="fb_2" id="s" value="Satisfied"required></option2><br><br>
+                    <option3>Neutral<input type="radio" name="fb_2" id="n" value="Neutral"required></option3><br><br>
+                    <option3>Not Satisfied<input type="radio" name="fb_2" id="ns" value="Not Satisfied"required></option3>
+                </p>
+            </fieldset>
+
+            <fieldset class = "fb_3">
+                <p>
+                    3. How did you find out about our website?*
+                    <select name="fb_3" id="fb_3" required> 
+                        <option value="">--Select an option--</option>
+                        <option value="Friends">Friends</option>
+                        <option value="Relatives">Relatives</option>
+                        <option value="Social Media">Social Media</option>
+                        <option value="Brochure">Brochures</option>
+                        <option value="TV or Newspaper Ads">TV or Newspaper Ads</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <fieldset class = "fb_4">
+                <p>
+                    4. How likely are you to recommend our website to someone else?(1-10)*<br><br>
+                    Least likely
+                    <option1>1<input type="radio" name="fb_4" id="fb_4_1" value="1" required></option1>
+                    <option2>2<input type="radio" name="fb_4" id="fb_4_2" value="2"required></option2>
+                    <option3>3<input type="radio" name="fb_4" id="fb_4_3" value="3"required></option3>
+                    <option1>4<input type="radio" name="fb_4" id="fb_4_4" value="4" required></option1>
+                    <option2>5<input type="radio" name="fb_4" id="fb_4_5" value="5"required></option2>
+                    <option3>6<input type="radio" name="fb_4" id="fb_4_6" value="6"required></option3>
+                    <option1>7<input type="radio" name="fb_4" id="fb_4_7" value="7" required></option1>
+                    <option2>8<input type="radio" name="fb_4" id="fb_4_8" value="8"required></option2>
+                    <option3>9<input type="radio" name="fb_4" id="fb_4_9" value="9"required></option3>
+                    <option1>10<input type="radio" name="fb_4" id="fb_4_10" value="10" required></option1>
+                    Most likely
+                </p>
+            </fieldset>
+
+            <fieldset class = "fb_5">
+                <p>
+                    5. Any suggestions you would like to add?<br><br>
+                    <textarea textarea name="suggestions" id="suggestions" cols="100" rows="10"></textarea>
+                </p>
+            </fieldset>
+
+            <p id="note">Fields marked with * are required</p>
+       
+           <input type="submit" value="Submit"/>
+           
+        </form>
+    </div>
+</body>
+</html>
